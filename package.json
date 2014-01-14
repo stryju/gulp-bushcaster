@@ -1,0 +1,35 @@
+{
+  "name": "gulp-bushcaster",
+  "version": "0.0.0",
+  "description": "gulp task for casting bushes... erm... busting caches",
+  "license": "MIT",
+  "repository": "stryju/gulp-bushcaster",
+  "author": {
+    "name": "tomasz stryjewski",
+    "email": "stryjewski.t@gmail.com",
+    "url": "http://stryju.pl"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "cache",
+    "buster",
+    "bush",
+    "caster"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "dependencies": {
+    "gulp-util": "~2.2.10",
+    "map-stream": "~0.1.0"
+  }
+}
